@@ -53,7 +53,7 @@ function renderAdditionalAds(ads) {
 }
 
 // Example usage: Fetch ads based on tags and render them
-const contentTags = ['Classes', 'School', 'Tutors'];
-const adTypes = ['Vertical Strip', 'Horizontal Strip', 'Thick Horizontal'];
+const contentTags = ['Classes', 'School', 'Tutors', 'Ads', 'Network', 'Sports', 'Students', 'Electronics', 'Fix', 'Phones'];
+const adTypes = ['Vertical Strip', 'Horizontal Strip', 'Thick Horizontal', 'Thick Vertical', 'Light Square', 'Dark Square'];
 
 adTypes.forEach(type => fetchAds(contentTags, type));
