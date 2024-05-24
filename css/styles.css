@@ -83,3 +83,9 @@ nav a:hover {
     text-align: center;
     margin: 0 auto 2rem auto;
 }
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 1rem;
+}
